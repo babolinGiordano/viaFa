@@ -47,4 +47,38 @@ describe('DriversStore (Signals + RxJS)', () => {
     expect(store.error()).toBeNull();
     expect(store.drivers()).toEqual([]); // empty
   });
+
+  it('should return list of drivers', () => {
+    // stato iniziale
+    expect(store.drivers()).toEqual([]);
+    expect(store.loading()).toBe(false);
+    expect(store.error()).toBeNull();
+
+    // act
+    store.loadAll();
+
+    // durante la richiesta
+    expect(store.loading()).toBe(true);
+
+    // intercetta la GET e rispondi con []
+    const req = httpMock.expectOne('http://localhost:3000/drivers');
+    expect(req.request.method).toBe('GET');
+    req.flush([
+      {
+        id: '1',
+        name: 'Franco',
+        surname: 'Ciccio',
+        nationality: 'Italiana',
+        dateOfBirth: '31/12/2020',
+        phoneNumber: '123456',
+        email: 'd.cicico@gmail.com',
+      },
+    ] as Driver[]);
+
+    // assert finali
+    expect(store.loading()).toBe(false);
+    expect(store.error()).toBeNull();
+    expect(store.drivers()).toHaveLength(1);
+    expect(store.drivers()[0].name).toEqual('Franco');
+  });
 });

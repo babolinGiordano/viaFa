@@ -1,3 +1,184 @@
 {
-  "drivers": []
+  "drivers": [
+    {
+      "id": "1",
+       "name": "Franco",
+       "surname": "Ciccio",
+       "nationality": "Italiana",
+       "dateOfBirth": "31/12/2020",
+       "phoneNumber": "123456",
+       "email": "d.cicico@gmail.com"
+    },
+    {
+      "id": "2",
+       "name": "Mario",
+       "surname": "Rossi",
+       "nationality": "Italiana",
+       "dateOfBirth": "15/06/1985",
+       "phoneNumber": "987654",
+       "email": "m.rossi@gmail.com"
+    },
+    {
+      "id": "3",
+       "name": "Luigi",
+       "surname": "Verdi",
+       "nationality": "Italiana",
+       "dateOfBirth": "23/03/1990",
+       "phoneNumber": "456789",
+       "email": "l.verdi@gmail.com"
+    },
+    {
+      "id": "4",
+       "name": "Paolo",
+       "surname": "Bianchi",
+       "nationality": "Italiana",
+       "dateOfBirth": "07/09/1988",
+       "phoneNumber": "321654",
+       "email": "p.bianchi@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Giuseppe",
+      "surname": "Ferrari",
+      "nationality": "Italiana",
+      "dateOfBirth": "12/04/1992",
+      "phoneNumber": "789123",
+      "email": "g.ferrari@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Marco",
+      "surname": "Romano",
+      "nationality": "Italiana",
+      "dateOfBirth": "28/11/1987",
+      "phoneNumber": "654987",
+      "email": "m.romano@gmail.com"
+    },
+    {
+      "id": "7",
+      "name": "Antonio",
+      "surname": "Marino",
+      "nationality": "Italiana",
+      "dateOfBirth": "03/07/1995",
+      "phoneNumber": "147258",
+      "email": "a.marino@gmail.com"
+    },
+    {
+      "id": "8",
+      "name": "Roberto",
+      "surname": "Costa",
+      "nationality": "Italiana",
+      "dateOfBirth": "19/02/1983",
+      "phoneNumber": "369852",
+      "email": "r.costa@gmail.com"
+    },
+    {
+      "id": "9",
+      "name": "Andrea",
+      "surname": "Greco",
+      "nationality": "Italiana",
+      "dateOfBirth": "25/09/1991",
+      "phoneNumber": "741852",
+      "email": "a.greco@gmail.com"
+    },
+    {
+      "id": "10",
+      "name": "Stefano",
+      "surname": "Conti",
+      "nationality": "Italiana",
+      "dateOfBirth": "14/08/1986",
+      "phoneNumber": "963852",
+      "email": "s.conti@gmail.com"
+    },
+    {
+      "id": "11",
+      "name": "Davide",
+      "surname": "Mancini",
+      "nationality": "Italiana",
+      "dateOfBirth": "30/05/1993",
+      "phoneNumber": "852147",
+      "email": "d.mancini@gmail.com"
+    },
+    {
+      "id": "12",
+      "name": "Alessandro",
+      "surname": "Ricci",
+      "nationality": "Italiana",
+      "dateOfBirth": "08/12/1989",
+      "phoneNumber": "369147",
+      "email": "a.ricci@gmail.com"
+    },
+    {
+      "id": "13",
+      "name": "Fabio",
+      "surname": "Moretti",
+      "nationality": "Italiana",
+      "dateOfBirth": "17/01/1994",
+      "phoneNumber": "741963",
+      "email": "f.moretti@gmail.com"
+    },
+    {
+      "id": "14",
+      "name": "Luca",
+      "surname": "Barbieri",
+      "nationality": "Italiana",
+      "dateOfBirth": "22/10/1984",
+      "phoneNumber": "852963",
+      "email": "l.barbieri@gmail.com"
+    },
+    {
+      "id": "15",
+      "name": "Simone",
+      "surname": "Fontana",
+      "nationality": "Italiana",
+      "dateOfBirth": "11/03/1996",
+      "phoneNumber": "147963",
+      "email": "s.fontana@gmail.com"
+    },
+    {
+      "id": "16",
+      "name": "Matteo",
+      "surname": "Santoro",
+      "nationality": "Italiana",
+      "dateOfBirth": "09/06/1982",
+      "phoneNumber": "258963",
+      "email": "m.santoro@gmail.com"
+    },
+    {
+      "id": "17",
+      "name": "Claudio",
+      "surname": "Martini",
+      "nationality": "Italiana",
+      "dateOfBirth": "05/08/1997",
+      "phoneNumber": "369741",
+      "email": "c.martini@gmail.com"
+    },
+    {
+      "id": "18",
+      "name": "Enrico",
+      "surname": "Vitale",
+      "nationality": "Italiana",
+      "dateOfBirth": "27/04/1981",
+      "phoneNumber": "147852",
+      "email": "e.vitale@gmail.com"
+    },
+    {
+      "id": "19",
+      "name": "Giorgio",
+      "surname": "Leone",
+      "nationality": "Italiana",
+      "dateOfBirth": "16/07/1998",
+      "phoneNumber": "258741",
+      "email": "g.leone@gmail.com"
+    },
+    {
+      "id": "20",
+      "name": "Filippo",
+      "surname": "Gallo",
+      "nationality": "Italiana",
+      "dateOfBirth": "02/05/1980",
+      "phoneNumber": "963741",
+      "email": "f.gallo@gmail.com"
+    }
+  ]
 }
