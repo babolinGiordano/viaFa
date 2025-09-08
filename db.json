@@ -1,0 +1,10 @@
+{
+  "users": [
+    { "id": 1, "name": "Mario Rossi", "email": "mario@example.com" },
+    { "id": 2, "name": "Luca Bianchi", "email": "luca@example.com" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Ciao mondo", "author": "Mario" },
+    { "id": 2, "title": "Angular 20 rocks!", "author": "Luca" }
+  ]
+}
