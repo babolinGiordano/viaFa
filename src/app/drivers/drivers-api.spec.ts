@@ -1,20 +1,20 @@
 import { TestBed } from '@angular/core/testing';
-import { Drivers } from './drivers';
 import { provideHttpClient } from '@angular/common/http';
+import { DriversApi } from './drivers-api';
 
-describe('Drivers', () => {
-  let service: Drivers;
+describe('DriversApi', () => {
+  let service: DriversApi;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
-        Drivers,
+        DriversApi,
         // 1) fornisce HttpClient e consente di applicare eventuali interceptor dal DI
         provideHttpClient(),
       ],
     });
 
-    service = TestBed.inject(Drivers);
+    service = TestBed.inject(DriversApi);
   });
 
   it('should be created', () => {
